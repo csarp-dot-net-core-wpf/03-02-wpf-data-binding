@@ -20,6 +20,11 @@
         <!-- G1.04 Az első sor magassága automatikus -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <!-- G1.08 Még négy, összesen öt sor lesz -->
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>            
         </Grid.RowDefinitions>
 
         <!-- G1.05 Az első sor első osszlopába egy felirat van -->
