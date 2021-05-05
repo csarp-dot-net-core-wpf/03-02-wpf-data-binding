@@ -14,6 +14,8 @@
         <!-- G1.03 Az első oszlop szélessége automatikus -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
+            <!-- G1.06 A második oszlop szélessége kitölti a megmaradt részt az ablak jobb széléig        -->
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <!-- G1.04 Az első sor magassága automatikus -->
         <Grid.RowDefinitions>
