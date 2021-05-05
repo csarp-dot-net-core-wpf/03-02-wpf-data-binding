@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using oop.model;
+
 namespace _03_03_01_grid_and_simple_binding
 {
     /// <summary>
@@ -22,6 +24,9 @@ namespace _03_03_01_grid_and_simple_binding
     {
         public MainWindow()
         {
+            /// G1.18 Példányosítunk egy beteg objektumot
+            Beteg beteg = new Beteg();
+
             InitializeComponent();
         }
     }
