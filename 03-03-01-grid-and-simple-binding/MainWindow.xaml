@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_03_03_01_grid_and_simple_binding"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Beteg felvétel az elhízási ambulancián" Height="300" Width="300">
+    <!--
+    G1.02 Grid
+    A Grid rácsot jelent, sorai és oszlopai vannak
+    -->
     <Grid>
 
     </Grid>
