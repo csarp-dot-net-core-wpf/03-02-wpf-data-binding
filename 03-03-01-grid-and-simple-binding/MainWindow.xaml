@@ -43,6 +43,9 @@
         <TextBlock x:Name="tbTTI" Grid.Row="3" Grid.Column="0" Margin="0 0 10 0">Testtömeg index:</TextBlock>
         <!-- G1.14 A negyedik sor második osszlopába egy csak olvasható beviteli mező van -->
         <TextBox x:Name="txtTTI" Grid.Row="3" Grid.Column="1" IsReadOnly="True"/>
+        <!-- G1.15 Az ötödik sor első osszlopába egy felirat van -->
+        <TextBlock x:Name="tbBetegAdatok" Grid.Row="4" Grid.Column="0" Margin="0 0 10 0">Beteg adatok:</TextBlock>
+
 
     </Grid>
 </Window>
