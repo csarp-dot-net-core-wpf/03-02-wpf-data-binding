@@ -57,6 +57,9 @@ namespace oop.model
             set
             {
                 suly = value;
+                /// G1.24 Ha a Suly mező változik az ablakba, megadjuk melyik tulajdonságot kell frissíteni
+                OnPropertyChanged("BetegAdatok");
+                OnPropertyChanged("TTI");
             }
         }
 
