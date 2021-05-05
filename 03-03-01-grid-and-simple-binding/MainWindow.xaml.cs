@@ -27,6 +27,9 @@ namespace _03_03_01_grid_and_simple_binding
             /// G1.18 Példányosítunk egy beteg objektumot
             Beteg beteg = new Beteg();
 
+            /// G1.19 Megadjuk, hogy a beteg objektum az ablak adatkontextusa
+            this.DataContext = beteg;
+
             InitializeComponent();
         }
     }
