@@ -19,5 +19,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+
+        <!-- G1.05 Az első sor első osszlopába egy felirat van -->
+        <TextBlock x:Name="tbNev" Grid.Row="0" Grid.Column="0">Név:</TextBlock>
     </Grid>
 </Window>
