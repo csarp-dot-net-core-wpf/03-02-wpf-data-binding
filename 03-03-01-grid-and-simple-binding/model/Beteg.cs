@@ -68,7 +68,9 @@ namespace oop.model
             set
             {
                 magassag = value;
-
+                /// G1.25 Ha a Magassag mező változik az ablakba, megadjuk melyik tulajdonságot kell frissíteni
+                OnPropertyChanged("BetegAdatok");
+                OnPropertyChanged("TTI");
             }
         }
 
