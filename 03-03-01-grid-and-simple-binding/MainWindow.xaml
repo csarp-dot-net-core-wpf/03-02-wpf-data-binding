@@ -31,7 +31,10 @@
         <!-- G1.05 Az első sor első osszlopába egy felirat van -->
         <TextBlock x:Name="tbNev" Grid.Row="0" Grid.Column="0">Név:</TextBlock>
         <!-- G1.07 Az első sor második osszlopába egy beviteli mező van -->
-        <TextBox x:Name="txtNev" Grid.Row="0" Grid.Column="1"  Margin="1 1 1 1"/>
+        <!-- G1.28 Hozzákötjük a Nev tulajdonságot a txtNev vezérlőhöz -->
+        <TextBox x:Name="txtNev" Grid.Row="0" Grid.Column="1"  Margin="1 1 1 1" 
+                 Text="{Binding Nev, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+        />
         <!-- G1.09 A második sor első osszlopába egy felirat van -->
         <TextBlock x:Name="tbSuly" Grid.Row="1" Grid.Column="0">Súly:</TextBlock>
         <!-- G1.10 A második sor második osszlopába egy beviteli mező van -->
