@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
+// G1.20 Betöltjük a szükséges névteret
+using System.ComponentModel;
 
 namespace oop.model
 {
@@ -10,7 +12,10 @@ namespace oop.model
     /// 
     /// A korházban lévő beteg TTI meghatározása
     /// </summary>
-    class Beteg
+    /// 
+    /// G1.20 A Beteg osztály az INotifyPropertyChanged interfacből származtatjuk
+    ///       Ha módosítunk adatot az ablakban, akkor jelzi melyik tulajdonságot kell frissíteni
+    class Beteg:INotifyPropertyChanged
     {
         /// <summary>
         /// Beteg neve
