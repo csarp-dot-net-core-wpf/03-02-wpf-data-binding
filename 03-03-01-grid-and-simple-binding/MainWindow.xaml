@@ -11,6 +11,10 @@
     A Grid rácsot jelent, sorai és oszlopai vannak
     -->
     <Grid>
+        <!-- G1.03 Az első oszlop szélessége automatikus -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
 
     </Grid>
 </Window>
