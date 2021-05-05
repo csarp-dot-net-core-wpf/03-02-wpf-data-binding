@@ -88,5 +88,12 @@ namespace oop.model
                 return nev + " beteg testőmeg indexe: " + TTI;
             }
         }
+
+        /// <summary>
+        /// G1.21 Implementáljuk az interfacet
+        /// 
+        /// http://www.blackwasp.co.uk/INotifyPropertyChanged.aspx
+        /// </summary>
+        public event PropertyChangedEventHandler PropertyChanged;
     }
 }
