@@ -48,6 +48,8 @@ namespace oop.model
             set
             {
                 nev = value;
+                /// G1.23 Ha a Nev mező változik az ablakba, megadjuk melyik tulajdonságot kell frissíteni
+                OnPropertyChanged("BetegAdatok");
             }
         }
         public double Suly
