@@ -9,13 +9,13 @@
 - G1.06           A második oszlop szélessége kitölti a megmaradt részt az ablak jobb széléig
 - G1.07           Az első sor második osszlopába egy beviteli mező van
 - G1.08           Még négy, összesen öt sor lesz
-- G1.10           A második sor második osszlopába egy beviteli mező van
-- G1.11           A harmadik sor első osszlopába egy felirat van
-- G1.12           A harmadik sor második osszlopába egy beviteli mező van
-- G1.13           A negyedik sor első osszlopába egy felirat van
-- G1.14           A negyedik sor második osszlopába egy csak olvasható beviteli mező van
-- G1.15           Az ötödik sor első osszlopába egy felirat van
-- G1.16           A negyedik sor második osszlopába egy csak olvasható beviteli mező van amelyben a szöveg tördelhető
+- G1.10           A második sor második oszlopába egy beviteli mező van
+- G1.11           A harmadik sor első oszlopába egy felirat van
+- G1.12           A harmadik sor második osslopába egy beviteli mező van
+- G1.13           A negyedik sor első oszlopába egy felirat van
+- G1.14           A negyedik sor második oszlopába egy csak olvasható beviteli mező van
+- G1.15           Az ötödik sor első oszlopába egy felirat van
+- G1.16           A negyedik sor második oszlopába egy csak olvasható beviteli mező van amelyben a szöveg tördelhető
 - G1.17           A Gridnek és TextBoxoknak margót állítunk be
 - G1.18           Példányosítunk egy beteg objektumot
 - G1.19           Megadjuk, hogy a beteg objektum az ablak adatkontextusa
