@@ -10,7 +10,8 @@
     G1.02 Grid
     A Grid rácsot jelent, sorai és oszlopai vannak
     -->
-    <Grid>
+    <!-- G1.17 A Gridnek és TextBoxoknak margót állítunk be -->
+    <Grid Margin="20 10 20 30">
         <!-- G1.03 Az első oszlop szélessége automatikus -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
@@ -30,22 +31,22 @@
         <!-- G1.05 Az első sor első osszlopába egy felirat van -->
         <TextBlock x:Name="tbNev" Grid.Row="0" Grid.Column="0">Név:</TextBlock>
         <!-- G1.07 Az első sor második osszlopába egy beviteli mező van -->
-        <TextBox x:Name="txtNev" Grid.Row="0" Grid.Column="1"  />
+        <TextBox x:Name="txtNev" Grid.Row="0" Grid.Column="1"  Margin="1 1 1 1"/>
         <!-- G1.09 A második sor első osszlopába egy felirat van -->
         <TextBlock x:Name="tbSuly" Grid.Row="1" Grid.Column="0">Súly:</TextBlock>
         <!-- G1.10 A második sor második osszlopába egy beviteli mező van -->
-        <TextBox x:Name="txtSuly" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:Name="txtSuly" Grid.Row="1" Grid.Column="1" Margin="1 1 1 1"/>
         <!-- G1.11 A harmadik sor első osszlopába egy felirat van -->
         <TextBlock x:Name="tbMagassag" Grid.Row="2" Grid.Column="0">Magasság:</TextBlock>
         <!-- G1.12 A harmadik sor második osszlopába egy beviteli mező van -->
-        <TextBox x:Name="txtMagassag" Grid.Row="2" Grid.Column="1"/>
+        <TextBox x:Name="txtMagassag" Grid.Row="2" Grid.Column="1" Margin="1 1 1 1"/>
         <!-- G1.13 A negyedik sor első osszlopába egy felirat van -->
         <TextBlock x:Name="tbTTI" Grid.Row="3" Grid.Column="0" Margin="0 0 10 0">Testtömeg index:</TextBlock>
         <!-- G1.14 A negyedik sor második osszlopába egy csak olvasható beviteli mező van -->
-        <TextBox x:Name="txtTTI" Grid.Row="3" Grid.Column="1" IsReadOnly="True"/>
+        <TextBox x:Name="txtTTI" Grid.Row="3" Grid.Column="1" IsReadOnly="True" Margin="1 1 1 1"/>
         <!-- G1.15 Az ötödik sor első osszlopába egy felirat van -->
         <TextBlock x:Name="tbBetegAdatok" Grid.Row="4" Grid.Column="0" Margin="0 0 10 0">Beteg adatok:</TextBlock>
         <!-- G1.16 A negyedik sor második osszlopába egy csak olvasható beviteli mező van amelyben a szöveg tördelhető -->
-        <TextBox x:Name="txtBetegAdatok" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap"/>
+        <TextBox x:Name="txtBetegAdatok" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" Margin="1 1 1 1"/>
     </Grid>
 </Window>
