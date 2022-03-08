@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using oop.Model;
+
 namespace ProjectWPFSquare.ViewModel
 {
     /// <summary>
@@ -16,5 +18,13 @@ namespace ProjectWPFSquare.ViewModel
     /// </summary>
     class SquareViewModel
     {
+        // MVVM.05 A ViewModel és Model kapcsolat
+        private Square square;
+
+        public SquareViewModel()
+        {
+            // Példányosítunk egy alapértelmezett négyzetet
+            square = new Square();
+        }
     }
 }

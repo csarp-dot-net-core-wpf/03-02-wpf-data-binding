@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 // MVVM.01 Publikus osztályok, egységes namespace
-namespace oop.model
+namespace oop.Model
 {
     /// <summary>
     /// Négyzet osztály

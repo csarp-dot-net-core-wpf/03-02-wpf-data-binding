@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\oop\02-02-exception-debug.csproj" />
+  </ItemGroup>
+
 </Project>
