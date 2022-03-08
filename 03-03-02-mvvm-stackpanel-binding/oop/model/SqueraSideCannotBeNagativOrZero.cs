@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace _02_02_exception_debug.model
+namespace oop.model
 {
     [Serializable]
-    internal class SqueraSideCannotBeNagativOrZero : Exception
+    public class SqueraSideCannotBeNagativOrZero : Exception
     {
         public SqueraSideCannotBeNagativOrZero()
         {

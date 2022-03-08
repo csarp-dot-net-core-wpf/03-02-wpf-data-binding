@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace _02_02_exception_debug.model
+// MVVM.01 Publikus osztályok, egységes namespace
+namespace oop.model
 {
     /// <summary>
     /// Négyzet osztály
     /// </summary>
-    class Square
+    public class Square
     {
         /// <summary>
         /// A négyzet oldala.

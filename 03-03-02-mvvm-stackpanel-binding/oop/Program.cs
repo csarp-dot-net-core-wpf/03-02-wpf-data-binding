@@ -1,11 +1,11 @@
 ﻿using System;
-using _02_02_exception_debug.model;
+using oop.model;
 
 // S2 .12 A hibát loggolhatjuk a consolra.
 using System.Diagnostics;
 
 
-namespace _02_02_exception_debug
+namespace oop
 {
     class Program
     {
