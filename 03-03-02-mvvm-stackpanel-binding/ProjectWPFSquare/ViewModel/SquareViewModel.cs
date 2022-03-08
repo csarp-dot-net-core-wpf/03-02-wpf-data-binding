@@ -45,5 +45,23 @@ namespace ProjectWPFSquare.ViewModel
                 return result;
             }
         }
+
+        // MVVM.07 A View-n a felhasználó által megadott adat
+        public double Side
+        {
+            get
+            {
+                return square.Side;
+            }
+            set
+            {
+                try
+                {
+                    square.Side = value;
+                }
+                catch (Exception exception)
+                { }
+            }
+        }
     }
 }

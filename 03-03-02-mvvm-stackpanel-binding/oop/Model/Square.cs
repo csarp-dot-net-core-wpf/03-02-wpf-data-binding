@@ -67,7 +67,7 @@ namespace oop.Model
         /// <summary>
         /// A négyzet kerület tulajdonsága. Csak olvasható.
         /// </summary>
-        public double District
+        public double Perimeter
         {
             get
             {
