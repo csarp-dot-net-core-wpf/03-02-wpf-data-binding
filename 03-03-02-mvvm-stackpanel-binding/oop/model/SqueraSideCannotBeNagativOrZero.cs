@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace oop.model
+namespace oop.Model
 {
     [Serializable]
     public class SqueraSideCannotBeNagativOrZero : Exception

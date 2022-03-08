@@ -26,5 +26,24 @@ namespace ProjectWPFSquare.ViewModel
             // Példányosítunk egy alapértelmezett négyzetet
             square = new Square();
         }
+
+        // MVVM.06 A View-n megjelenő adatok
+        public string Perimeter
+        {
+            get
+            {
+                string result = square.Perimeter + " méter.";
+                return result;
+            }
+        }
+
+        public string Area
+        {
+            get
+            {
+                string result = square.Area + " négyzetméter.";
+                return result;
+            }
+        }
     }
 }
