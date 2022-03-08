@@ -12,8 +12,11 @@
         <!-- MVVM.14 Feliratok (textblock) -->
         <TextBlock x:Name="tbSuareSide"  Margin="20 10 20 0">A négyzet oldala:</TextBlock>
         <TextBlock x:Name="tbPerimeter" Margin="30 10 30 0">A négyzet kerülete:</TextBlock>
+        <!-- MVVM.16 Az eredményekek megjelenítésénél egy irányú adatkötést használunk!-->
+        <TextBlock x:Name="tbPreimeterResult" Margin="30 2 30 0" Foreground="Green" Text="{Binding Perimeter, Mode=OneWay}"></TextBlock>
         <TextBlock x:Name="tbArea" Margin="30 10 30 0">A négyzet területe:</TextBlock>
-        <!-- MVVM.14 Programból való kilépés működik -->
+        <TextBlock x:Name="tbAreaResult" Margin="30 2 30 0" Foreground="Green" Text="{Binding Area, Mode=OneWay}"></TextBlock>
+        <!-- MVVM.15 Programból való kilépés működik -->
         <Button x:Name="btnExit" Margin="250 10 30 5" Click="btnExit_Click">Kilépés</Button>
     </StackPanel>
 </Window>
