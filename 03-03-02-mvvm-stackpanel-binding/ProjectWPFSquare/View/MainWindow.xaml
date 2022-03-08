@@ -11,6 +11,9 @@
     <StackPanel>
         <!-- MVVM.14 Feliratok (textblock) -->
         <TextBlock x:Name="tbSuareSide"  Margin="20 10 20 0">A négyzet oldala:</TextBlock>
+        <!-- MVVM.17 A beviteli adatoknál kétírányú adatkötést használunk -->
+        <TextBox x:Name="txtSide" Margin="20 0 20 30" Text="{Binding Side, Mode=TwoWay}">
+        </TextBox>
         <TextBlock x:Name="tbPerimeter" Margin="30 10 30 0">A négyzet kerülete:</TextBlock>
         <!-- MVVM.16 Az eredményekek megjelenítésénél egy irányú adatkötést használunk!-->
         <TextBlock x:Name="tbPreimeterResult" Margin="30 2 30 0" Foreground="Green" Text="{Binding Perimeter, Mode=OneWay}"></TextBlock>
