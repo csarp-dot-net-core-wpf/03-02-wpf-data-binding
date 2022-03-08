@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-
+using ProjectWPFSquare.View;
 using ProjectWPFSquare.ViewModel;
 
 namespace ProjectWPFSquare
@@ -20,6 +20,9 @@ namespace ProjectWPFSquare
         {
             // MVVM.09 Példányosítunk egy ViewModelt
             SquareViewModel squareViewModel = new SquareViewModel();
+
+            // MVVM.10. Példányosítunk egy View ablakot
+            MainWindow mainWindow = new MainWindow();
 
             base.OnStartup(e);
         }
