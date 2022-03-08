@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using oop.Model;
+using ViewModel.BaseClass;
 
 namespace ProjectWPFSquare.ViewModel
 {
@@ -16,7 +17,10 @@ namespace ProjectWPFSquare.ViewModel
     /// SquareViewModel osztály
     /// Az osztályban megatalálhatók azok a tulajdonságok amelyeket meg akarunk jeleníteni az ablakban
     /// </summary>
-    class SquareViewModel
+
+    // MVVM.19 Az adatokban történt változások nyomon követése a nézetmodellben
+    // A ViewModelBase lesz az ősosztály.
+    class SquareViewModel : ViewModelBase
     {
         // MVVM.05 A ViewModel és Model kapcsolat
         private Square square;
