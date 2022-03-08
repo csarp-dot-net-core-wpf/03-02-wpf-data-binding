@@ -13,6 +13,15 @@
         <TextBlock x:Name="tbSuareSide"  Margin="20 10 20 0">A négyzet oldala:</TextBlock>
         <!-- MVVM.17 A beviteli adatoknál kétírányú adatkötést használunk -->
         <TextBox x:Name="txtSide" Margin="20 0 20 30" Text="{Binding Side, Mode=TwoWay}">
+            <!-- MVVM.18 Hibaüzenet megjelenítés -->
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <StackPanel>
+                        <AdornedElementPlaceholder x:Name="textBox"/>
+                        <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </StackPanel>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
         </TextBox>
         <TextBlock x:Name="tbPerimeter" Margin="30 10 30 0">A négyzet kerülete:</TextBlock>
         <!-- MVVM.16 Az eredményekek megjelenítésénél egy irányú adatkötést használunk!-->
