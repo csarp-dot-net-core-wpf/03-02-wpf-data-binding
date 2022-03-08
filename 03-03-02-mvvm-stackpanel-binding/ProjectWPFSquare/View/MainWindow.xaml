@@ -9,6 +9,10 @@
     <!--MVVM.13 Ablak cím és keret -->
     <!--StackPanel elrendezés -->
     <StackPanel>
-
+        <!-- MVVM.14 Feliratok (textblock) -->
+        <TextBlock x:Name="tbSuareSide"  Margin="20 10 20 0">A négyzet oldala:</TextBlock>
+        <TextBlock x:Name="tbPerimeter" Margin="30 10 30 0">A négyzet kerülete:</TextBlock>
+        <TextBlock x:Name="tbArea" Margin="30 10 30 0">A négyzet területe:</TextBlock>
+        <Button x:Name="btnExit" Margin="250 10 30 5">Kilépés</Button>
     </StackPanel>
 </Window>

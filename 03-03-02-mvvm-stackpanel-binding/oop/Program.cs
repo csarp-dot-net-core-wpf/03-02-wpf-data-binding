@@ -1,5 +1,5 @@
 ﻿using System;
-using oop.model;
+using oop.Model;
 
 // S2 .12 A hibát loggolhatjuk a consolra.
 using System.Diagnostics;
