@@ -6,6 +6,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
+using ProjectWPFSquare.ViewModel;
+
 namespace ProjectWPFSquare
 {
     /// <summary>
@@ -16,6 +18,9 @@ namespace ProjectWPFSquare
         // MVVM.08 Felülírjuk az OnStartup metódust
         protected override void OnStartup(StartupEventArgs e)
         {
+            // MVVM.09 Példányosítunk egy ViewModelt
+            SquareViewModel squareViewModel = new SquareViewModel();
+
             base.OnStartup(e);
         }
     }
