@@ -65,6 +65,10 @@ namespace ProjectWPFSquare.ViewModel
                 }
                 catch (Exception exception)
                 { }
+                // MVVM.20 Ha változik a Side tulajdonság értesíteni kell a View-t, hogy a Perimeter és Area tulajdonság is változzon
+                // Ha kilépünk a TextBox-ból akkor változzanak a megadott tulajdonságok.
+                OnPropertyChanged("Perimeter");
+                OnPropertyChanged("Area");
             }
         }
     }
