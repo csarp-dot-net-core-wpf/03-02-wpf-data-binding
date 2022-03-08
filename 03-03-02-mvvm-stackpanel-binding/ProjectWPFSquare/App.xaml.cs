@@ -13,5 +13,10 @@ namespace ProjectWPFSquare
     /// </summary>
     public partial class App : Application
     {
+        // MVVM.08 Felülírjuk az OnStartup metódust
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+        }
     }
 }
