@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectWPFSquare.View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+         Title="Négyzet területe és kerülete" Height="300" Width="400">
+    <!--MVVM.13 Ablak cím és keret -->
+    <!--StackPanel elrendezés -->
+    <StackPanel>
 
-    </Grid>
+    </StackPanel>
 </Window>
