@@ -24,6 +24,9 @@ namespace ProjectWPFSquare
             // MVVM.10. Példányosítunk egy View ablakot
             MainWindow mainWindow = new MainWindow();
 
+            // MVVM.11 Megadjuk az ablak adatkontextusát (összekötjük a View-t és ViewModelt)
+            mainWindow.DataContext = squareViewModel;
+
             base.OnStartup(e);
         }
     }
