@@ -13,8 +13,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ProjectWPFSquare
+namespace ProjectWPFSquare.View
 {
+
+    // MVVM.03 A MainWindw osztályt a View rétegbe rakjuk, a programot futtatható állapotba hozzuk
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>

@@ -16,6 +16,14 @@ namespace oop.model
         private double side;
 
         /// <summary>
+        /// MVVM.02 Konstruktor amely alapértelmezett értékekket állít be.
+        /// </summary>
+        public Square()
+        {
+            side = 1;
+        }
+
+        /// <summary>
         /// Négyzetet oldalával létrehozó konstruktor.
         /// </summary>
         /// <param name="side">A négyzet oldala</param>
