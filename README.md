@@ -30,7 +30,7 @@
 - G1.28           Hozzákötjük a Nev tulajdonságot a txtNev vezérlőhöz
 - G1.29           Hozzákötjük a Suly tulajdonságot a txtSuly vezérlőhöz
 - G1.30           Hozzákötjük a Magassag tulajdonságot a txtMagassag vezérlőhöz
-
+### 03-03-02-mvvm-stackpanel-binding
 - MVVM.01         Publikus osztályok, egységes namespace
 - MVVM.02         Konstruktor amely alapértelmezett értékekket állít be.
 - MVVM.03         A MainWindw osztályt a View rétegbe rakjuk, a programot futtatható állapotba hozzuk
