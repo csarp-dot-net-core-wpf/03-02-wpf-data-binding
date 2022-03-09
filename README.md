@@ -31,26 +31,23 @@
 - G1.29           Hozzákötjük a Suly tulajdonságot a txtSuly vezérlőhöz
 - G1.30           Hozzákötjük a Magassag tulajdonságot a txtMagassag vezérlőhöz
 
-
-MVVM.01         Publikus osztályok, egységes namespace
-MVVM.02         Konstruktor amely alapértelmezett értékekket állít be.
-MVVM.03         A MainWindw osztályt a View rétegbe rakjuk, a programot futtatható állapotba hozzuk
-MVVM.04         MVVM
-MVVM.05         A ViewModel és Model kapcsolat
-MVVM.06         A View-n megjelenő adatok
-MVVM.07         A View-n a felhasználó által megadott adat
-MVVM.08         Felülírjuk az OnStartup metódust
-MVVM.09          Példányosítunk egy ViewModelt
-MVVM.10         Példányosítunk egy View ablakot
-MVVM.11         Megadjuk az ablak adatkontextusát (összekötjük a View-t és ViewModelt)
-MVVM.12         Megjelenítjük az ablakot
-MVVM.13         Ablak cím és keret. StackPanel elrendezés
-MVVM.14         Feliratok (textblock)
-MVVM.15         Programból való kilépés működik
-MVVM.16         Az eredményekek megjelenítésénél egy irányú adatkötést használunk!
-MVVM.17         A beviteli adatoknál kétírányú adatkötést használunk
-MVVM.18         Hibaüzenet megjelenítés
-MVVM.19         Az adatokban történt változások nyomon követése a nézetmodellben
-MVVM.20         Ha változik a Side tulajdonság értesíteni kell a View-t
-
-
+- MVVM.01         Publikus osztályok, egységes namespace
+- MVVM.02         Konstruktor amely alapértelmezett értékekket állít be.
+- MVVM.03         A MainWindw osztályt a View rétegbe rakjuk, a programot futtatható állapotba hozzuk
+- MVVM.04         MVVM
+- MVVM.05         A ViewModel és Model kapcsolat
+- MVVM.06         A View-n megjelenő adatok
+- MVVM.07         A View-n a felhasználó által megadott adat
+- MVVM.08         Felülírjuk az OnStartup metódust
+- MVVM.09          Példányosítunk egy ViewModelt
+- MVVM.10         Példányosítunk egy View ablakot
+- MVVM.11         Megadjuk az ablak adatkontextusát (összekötjük a View-t és ViewModelt)
+- MVVM.12         Megjelenítjük az ablakot
+- MVVM.13         Ablak cím és keret. StackPanel elrendezés
+- MVVM.14         Feliratok (textblock)
+- MVVM.15         Programból való kilépés működik
+- MVVM.16         Az eredményekek megjelenítésénél egy irányú adatkötést használunk!
+- MVVM.17         A beviteli adatoknál kétírányú adatkötést használunk
+- MVVM.18         Hibaüzenet megjelenítés
+- MVVM.19         Az adatokban történt változások nyomon követése a nézetmodellben
+- MVVM.20         Ha változik a Side tulajdonság értesíteni kell a View-t
