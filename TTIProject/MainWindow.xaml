@@ -29,5 +29,7 @@
         <TextBox x:Name="txtNev" Grid.Row="0" Grid.Column="1" Margin="1 1 1 1"/>
         <TextBox x:Name="txtSuly" Grid.Row="1" Grid.Column="1" Margin="1 1 1 1"/>
         <TextBox x:Name="txtMagassag" Grid.Row="2" Grid.Column="1" Margin="1 1 1 1"/>
+        <TextBox x:Name="txtTTI" Grid.Row="3" Grid.Column="1" Margin="1 1 1 1"/>
+        <TextBox x:Name="txtBetegAdatok" Grid.Row="4" Grid.Column="1" IsReadOnly="True" TextWrapping="Wrap" Margin="1 1 1 1"/>
     </Grid>
 </Window>
