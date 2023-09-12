@@ -24,5 +24,31 @@
             suly = 60;
             magassag = 1.6;
         }
+
+        /// <summary>
+        /// Írható tulajdonságok
+        /// </summary>
+        public string Nev
+        {
+            set
+            {
+                nev = value;
+            }
+        }
+        public double Suly
+        {
+            set
+            {
+                suly = value;
+            }
+        }
+
+        public double Magassag
+        {
+            set
+            {
+                magassag = value;
+            }
+        }
     }
 }
