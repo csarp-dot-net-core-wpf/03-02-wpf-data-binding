@@ -7,6 +7,9 @@
         xmlns:model="clr-namespace:TTIProject.Model"
     mc:Ignorable="d"
         Title="MainWindow" Height="300" Width="300">
+    <Window.DataContext>
+        <model:Beteg/>
+    </Window.DataContext>
     <Grid Margin="20 10 20 30">
         <!-- Az első oszlop szélessége automatikus -->
         <!-- A második oszlop szélessége kitölti a megmaradt részt az ablak jobb széléig        -->
