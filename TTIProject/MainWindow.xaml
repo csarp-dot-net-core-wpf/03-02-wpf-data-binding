@@ -42,7 +42,12 @@
                  Margin="1 1 1 1"
                  Text="{Binding Suly, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                  />
-        <TextBox x:Name="txtMagassag" Grid.Row="2" Grid.Column="1" Margin="1 1 1 1"/>
+        <TextBox x:Name="txtMagassag" 
+                 Grid.Row="2" 
+                 Grid.Column="1" 
+                 Margin="1 1 1 1"
+                 Text="{Binding Magassag, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 />
         <TextBox x:Name="txtTTI" Grid.Row="3" Grid.Column="1" Margin="1 1 1 1"/>
         <TextBox x:Name="txtBetegAdatok" Grid.Row="4" Grid.Column="1" IsReadOnly="True" TextWrapping="Wrap" Margin="1 1 1 1"/>
     </Grid>
