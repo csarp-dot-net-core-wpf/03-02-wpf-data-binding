@@ -1,4 +1,6 @@
-﻿namespace TTIProject.Model
+﻿using System;
+
+namespace TTIProject.Model
 {
     public class Beteg
     {
@@ -48,6 +50,28 @@
             set
             {
                 magassag = value;
+            }
+        }
+
+        /// <summary>
+        /// Olvasható tulajdonságok
+        /// Testtömeg index: kg / magasság^2
+        /// </summary>
+        public double TTI
+        {
+            get
+            {
+                double tti = suly / Math.Pow(magassag, 2);
+                double roundedTTI = Math.Round(tti, 2);
+                return roundedTTI;
+            }
+        }
+
+        public string BetegAdatok
+        {
+            get
+            {
+                return nev + " beteg testőmeg indexe: " + TTI;
             }
         }
     }
