@@ -77,5 +77,15 @@ namespace TTIProject.Model
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
+
+        /// <summary>
+        /// Megírjuk az interface szükséges metódusát. Mindig ezt kell írni
+        /// </summary>
+        /// <param name="property"></param>
+        private void OnPropertyChanged(string property)
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(property));
+        }
     }
 }
