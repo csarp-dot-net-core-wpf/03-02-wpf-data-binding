@@ -30,7 +30,12 @@
         <TextBlock x:Name="tbTTI" Grid.Row="3" Grid.Column="0" Margin="0 0 10 0">Testtömeg index:</TextBlock>
         <TextBlock x:Name="tbBetegAdatok" Grid.Row="4" Grid.Column="0" Margin="0 0 10 0">Beteg adatok:</TextBlock>
         <!--Második oszlop-->
-        <TextBox x:Name="txtNev" Grid.Row="0" Grid.Column="1" Margin="1 1 1 1"/>
+        <TextBox x:Name="txtNev" 
+                 Grid.Row="0" 
+                 Grid.Column="1"  
+                 Margin="1 1 1 1"
+                 Text="{Binding Nev, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 />
         <TextBox x:Name="txtSuly" Grid.Row="1" Grid.Column="1" Margin="1 1 1 1"/>
         <TextBox x:Name="txtMagassag" Grid.Row="2" Grid.Column="1" Margin="1 1 1 1"/>
         <TextBox x:Name="txtTTI" Grid.Row="3" Grid.Column="1" Margin="1 1 1 1"/>
