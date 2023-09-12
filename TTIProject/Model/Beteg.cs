@@ -36,6 +36,7 @@ namespace TTIProject.Model
             set
             {
                 nev = value;
+                OnPropertyChanged("BetegAdatok");
             }
         }
         public double Suly
@@ -43,6 +44,8 @@ namespace TTIProject.Model
             set
             {
                 suly = value;
+                OnPropertyChanged("BetegAdatok");
+                OnPropertyChanged("TTI");
             }
         }
 
@@ -51,6 +54,8 @@ namespace TTIProject.Model
             set
             {
                 magassag = value;
+                OnPropertyChanged("BetegAdatok");
+                OnPropertyChanged("TTI");
             }
         }
 
