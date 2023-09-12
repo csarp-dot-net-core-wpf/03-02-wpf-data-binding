@@ -1,8 +1,9 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace TTIProject.Model
 {
-    public class Beteg
+    public class Beteg : INotifyPropertyChanged
     {
         /// <summary>
         /// Beteg neve
@@ -74,5 +75,7 @@ namespace TTIProject.Model
                 return nev + " beteg testőmeg indexe: " + TTI;
             }
         }
+
+        public event PropertyChangedEventHandler? PropertyChanged;
     }
 }
