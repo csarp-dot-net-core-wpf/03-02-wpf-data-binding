@@ -14,5 +14,15 @@
         /// Beteg magassága (méter)
         /// </summary>
         private double magassag;
+
+        /// <summary>
+        /// Alapértelmezett konstruktor
+        /// </summary>
+        public Beteg()
+        {
+            nev = string.Empty;
+            suly = 60;
+            magassag = 1.6;
+        }
     }
 }
