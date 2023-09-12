@@ -20,5 +20,10 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <TextBlock x:Name="tbNev" Grid.Row="0" Grid.Column="0">Név:</TextBlock>
+        <TextBlock x:Name="tbSuly" Grid.Row="1" Grid.Column="0">Súly:</TextBlock>
+        <TextBlock x:Name="tbMagassag" Grid.Row="2" Grid.Column="0">Magasság:</TextBlock>
+        <TextBlock x:Name="tbTTI" Grid.Row="3" Grid.Column="0" Margin="0 0 10 0">Testtömeg index:</TextBlock>
+        <TextBlock x:Name="tbBetegAdatok" Grid.Row="4" Grid.Column="0" Margin="0 0 10 0">Beteg adatok:</TextBlock>
     </Grid>
 </Window>
